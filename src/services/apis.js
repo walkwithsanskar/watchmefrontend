@@ -1,4 +1,4 @@
-const BASE_URL = process.env.REACT_APP_BASE_URL || "https://watchmebackendapi.onrender.com/api/v1"
+const BASE_URL =  "https://watchmebackendapi.onrender.com/api/v1"
 
 
 // auth api
