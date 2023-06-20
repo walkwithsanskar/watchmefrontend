@@ -147,7 +147,7 @@ const Login = () => {
     
 
 
-      <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-center absolute bottom-0 select-none opacity-30">Sanskar</h1>
+      <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-center absolute bottom-[-50px] select-none opacity-20"> Made By Sanskar</h1>
   
 
     </div>
