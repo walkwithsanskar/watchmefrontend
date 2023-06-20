@@ -34,14 +34,14 @@ const ProfilePage = () => {
   return (
     <div className='flex lg:flex-row md:flex-row flex-col  justify-evenly'>
 
-      <div className='flex  lg:flex-col md:flex-col lg:gap-10 md:gap-10  flex-row  lg:justify-start md:justify-start justify-center relative '>
+      <div className='flex  lg:flex-col md:flex-col lg:gap-10 md:gap-10  flex-row  lg:justify-start md:justify-start justify-center gap-3 relative '>
 
                 <Link to="/home">
-                        <AiOutlineHome className='lg:hidden   md:hidden sm:hidden flex'/>
+                        <AiOutlineHome className='lg:hidden   md:hidden sm:hidden flex text-xl'/>
 
                 </Link>
-                      <GiHamburgerMenu className='lg:hidden   md:hidden flex'  onClick={()=>setShowMenu(!showMenu)}/>
-                      <TbFriends className='lg:hidden   md:hidden flex'  onClick={()=>setShowFreinds(!showFriends)}/>
+                      <GiHamburgerMenu className='lg:hidden   md:hidden flex text-xl'  onClick={()=>setShowMenu(!showMenu)}/>
+                      <TbFriends className='lg:hidden   md:hidden flex text-xl'  onClick={()=>setShowFreinds(!showFriends)}/>
                     <div className={`lg:flex md:flex  ${showMenu?"flex":"hidden"} lg:relative md:relative absolute  top-5`}  >
 
                     {/* userdetails page */}

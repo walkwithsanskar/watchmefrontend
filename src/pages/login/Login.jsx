@@ -93,7 +93,7 @@ const Login = () => {
   return (
 
 
-    <div className='flex flex-col items-center w-11/12 mx-auto'>
+    <div className='flex flex-col items-center w-11/12 mx-auto relative h-fit'>
 
       {
         haveAccount?
@@ -136,7 +136,7 @@ const Login = () => {
     
     {
             haveAccount&& <span className='cursor-pointer  text-blue-300' onClick={()=>setHaveAccount(!haveAccount)}>
-                  dont have account sign up here
+                  dont have an  account sign up here
 
          </span>
     }
@@ -144,6 +144,11 @@ const Login = () => {
     {
       !haveAccount && <span onClick={()=>setHaveAccount(!haveAccount)} className='cursor-pointer text-blue-300'> already have an account login here</span>
     }
+    
+
+
+      <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-center absolute bottom-0 select-none opacity-30">Sanskar</h1>
+  
 
     </div>
   )
