@@ -72,7 +72,7 @@ const NavBar = () => {
       {
         user===null?(<>
           <div className='flex justify-around items-center flex-row '>
-          <h1 className='from-neutral-800 text-4xl '>Watch Me</h1>
+          <h1 className='from-neutral-800 text-4xl '>ShareSphere</h1>
           </div>
         </>):(<>
                 <div className='  flex justify-around items-center lg:flex-row  md:flex-row 
@@ -82,7 +82,7 @@ const NavBar = () => {
                 border-b-neutral-600 py-[2px] flex-wrap  '>
                 <Link to="/home">
 
-                <h1 className='from-neutral-800 text-4xl '>Watch Me</h1>
+                <h1 className='from-neutral-800 text-4xl '>ShareSphere</h1>
                 </Link>
                 
                 <div className="flex flex-row gap-3 items-center lg:relative md:relative sm:relative relative "> 
